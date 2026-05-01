@@ -136,9 +136,59 @@
 # fib(15)
 
 
-      
+# recursive function:-  
+# factorial:-
+
+# def fact(x):
+#     if x==1:
+#         return 1
+#     else:
+#         return x*fact(x-1)
+# a=fact(5)
+# print(a)
+ 
+# def num(x,y=1):
+#     print(y)
+   
+#     if x==1:
+#         return 1
+
+#     else:
+#         return num(x-1,y+1)
+# num(5)
 
 
+# lambda function:-
 
-    
+# without argument and without return
+# demo= lambda:print("hello world")
+# demo()
+# demo()
 
+# with argument and without return
+# add= lambda x,y=0 :print(x+y)
+# add(10,20)
+# add(20,50)
+# add(50)
+
+
+# square= lambda x :print(x**2)
+# square(5)
+
+# num=[1,2,3,4,5,6,7]
+# sqrnum =[]
+# for i in num:
+#     sqrnum.append (i**2)
+
+# print(sqrnum)
+
+# num=[1,2,3,4,5,6,7]
+# sqrnum=list(map((lambda x:x**2),num))
+# print(sqrnum)
+
+num=[1,2,3,4,5,6,7,8,9,10]
+even= list(filter(lambda x:x%2==1,num))
+print(even)
+
+
+# next reduce
