@@ -30,7 +30,7 @@
 
 # complex datatype:-
 
-# b=4j
+# a=4j
 # b=3
 # print(a*b)
 # print(type(a))
@@ -38,7 +38,7 @@
 
 # list:-
 
-# a=["apple","banana","grapes","orange"]
+a=["apple","banana","grapes","orange"]
 # print(a)
 # print(type(a))
 # print(a[1])
@@ -56,12 +56,15 @@
 # a.reverse()
 # print(a)
 # print(a[1:3])
+
 # for i in a:
 #     print(i)
+
 # b=[]
 # for i in range(5):
 #         b.append(input("enter the fruits name:"))
 # print(b)
+
 # a=[1,"hello",3.01,True,"orange"]
 # print(a)
 # print(a.index(3.01))
@@ -195,8 +198,8 @@
 # a = {'name':['naveen','kiran','vishnu'],'place':['thrissur','plakkad','kannur']}
 # print(a['name'][0])
 
-a={"name":"rahul","age":24}
-a["place"]="thissur"
-a['age']=40
-print(a)
+# a={"name":"rahul","age":24}
+# a["place"]="thissur"
+# a['age']=40
+# print(a)
 

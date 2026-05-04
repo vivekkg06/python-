@@ -182,13 +182,66 @@
 
 # print(sqrnum)
 
-# num=[1,2,3,4,5,6,7]
-# sqrnum=list(map((lambda x:x**2),num))
-# print(sqrnum)
+# num=[1,2,3,4,5,6,7,8,9,10]
+# even= list(filter(lambda x:x%2==0,num))
+# print(even)
 
-num=[1,2,3,4,5,6,7,8,9,10]
-even= list(filter(lambda x:x%2==1,num))
-print(even)
+# num=[1,2,3,4,5,6,7,8,9,10]
+# odd= list(filter(lambda x:x%2==1,num))
+# print(odd)
 
 
-# next reduce
+# reduce:-
+
+# from functools import reduce
+# a=[1,2,3,4,5,6,7]
+# sum=reduce((lambda x,y:x+y),a)
+# print(sum)
+
+
+def adddata(name,age,subject1,subject2,subject3):
+    data ={
+        'name':name,
+        'age':age,
+        'subject1':subject1,
+        'subject2':subject2,
+        'subject3':subject3
+
+    }
+    return data
+x=True
+z =[]
+while x:
+    choice = input("enter your choice add/display/exit:")
+
+    match choice:
+        case 'exit':
+            x= False
+        case 'add':
+            name = input("enter you name :")
+            age= input("enter your age :")
+            subject1=int(input("enter subject1 :"))
+            subject2=int(input("enter subject2 :"))
+            subject3=int(input('enter subject3 :'))
+            z.append(adddata(name,age,subject1,subject2,subject3))
+
+        case 'display':
+            print(z)
+            for x in z:
+                print('name:',x["name"])
+                print('age:',x["age"])
+                print('subject1:',x["subject1"])
+                print('subject2:',x["subject2"])
+                print('subject3:',x["subject3"])
+            
+                total=(x["subject1"]+x["subject2"]+x["subject3"])
+                avg = total//3
+                print("total:",total)
+                print("avg:",avg)
+                print("------------------")
+        case _:
+            print("invalid input")
+
+
+
+            

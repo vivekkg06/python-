@@ -22,7 +22,7 @@
 # a="hello"
 # print(len(a))
 # print(a[1])
-# print(a[-4])
+# print(a[-5])
 
 # a="hello"
 # print(a[0:3])
@@ -156,7 +156,7 @@
 # b= a <= 18 or (30 <= a  and 40>=a  )
 # print(b)
 
-# # identity oprator:
+# # identity operator:
 # a=["apple","banana","grape"]
 # b=["apple","banana","grape"]
 # c=b
@@ -592,21 +592,21 @@
 #     print(7[i])
 
 
-n=4
-i=1
-num=1
-k=n
-while i<=n:
-    j=1
-    while j<=i:
-        print(num,end=" ")
-        j+=1
-        num=num+1
-        # while i<=k:
-        #     print("  "*n,end="")
-        #     print(n)
-        #     k-=1
+# n=4
+# i=1
+# num=1
+# k=n
+# while i<=n:
+#     j=1
+#     while j<=i:
+#         print(num,end=" ")
+#         j+=1
+#         num=num+1
+#         # while i<=k:
+#         #     print("  "*n,end="")
+#         #     print(n)
+#         #     k-=1
     
         
-    print()
-    i+=1
+#     print()
+#     i+=1
