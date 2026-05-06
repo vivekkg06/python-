@@ -115,3 +115,48 @@
     
 
 # print(num(1,10,2))
+
+
+class Bike():
+    def __init__(self,name,year,price):
+        self.name=name
+        self.year=year
+        self.price=price
+
+    def show(self):
+        print(f"name:{self.name}")
+        print(f"purchase year:{self.year}")
+        print(f"price:{self.price}")
+        print("_"*20)
+
+bike1=Bike("ronin",2026,"2L")
+bike1.show()
+bike2=Bike("CB350",2024,"3L")
+bike2.show()
+
+bike1.year=2025
+bike1.show()
+
+
+
+class Cosmectics():
+    def __init__(self,companyname,name,price,expdate):
+        self.companyname=companyname
+        self.name=name
+        self.price=price
+        self.expdate=expdate
+
+    def show(self):
+        print(f"companyname={self.companyname}")
+        print(f"productname={self.name}")
+        print(f"price={self.price}")
+        print("expdate=",self.expdate)
+        
+        print("_"*50)
+
+a=Cosmectics("plum","ricewater",399,"4/1/2026")
+b=Cosmectics("revlon","serum",799,"5/12/2024")
+
+a.show()
+b.show()
+
