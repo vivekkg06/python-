@@ -46,7 +46,7 @@ import datetime as dt
 # print(day.days)
 
 
-todaytime = dt.datetime.now()
+# todaytime = dt.datetime.now()
 
-print(todaytime.strftime("time=%H:%M:%S\ndate=%d-%m-%Y"))
+# print(todaytime.strftime("%H"))
 
