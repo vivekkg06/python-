@@ -23,6 +23,8 @@ while x:
         case 'v':
             fig, ax = plt.subplots()  
             ax.plot(year,profit) 
+            ax.set_xlabel("year")
+            ax.set_ylabel("profit")
             plt.show()
         case _:
             print("invalid input")
