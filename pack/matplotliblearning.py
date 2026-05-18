@@ -10,7 +10,7 @@ profit=[]
 
 x = True
 while x:
-    choice = input("enther your choice [add,display,exit,v]:")
+    choice = input("enter your choice [add,display,exit,v]:")
     match choice:
         case "exit":
             x = False
