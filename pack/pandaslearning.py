@@ -33,6 +33,7 @@ while x:
             data['total'].append(sub1+sub2)
             data['avg'].append((sub1+sub2)/2)
         case "display":
-            print(data)
             a = pd.DataFrame(data)
+            with open("demo.txt","w")as f:
+                f.write(str(a))
             print(a)

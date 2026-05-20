@@ -59,13 +59,21 @@
 
 
        
+import json
+
+d ={
+    'name':['rahul,manu'],
+    'place':'thrissur',
+}
+
+f = open('data1.json','w')
+w = json.dump(d,f,indent=4)
+f.close()
+
 # import json
 
-# d ={
-#     'name':'kiran',
-#     'place':'thrissur',
-# }
 
-# f = open('data1.json','w')
-# w = json.dump(f,d)
-# f.close()
+# with open("data1.json","r") as file:
+#     a = json.load(file)
+#     print(a)
+    

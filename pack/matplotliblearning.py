@@ -21,7 +21,7 @@ while x:
             print("year",year)
             print("profit:",profit)
         case 'v':
-            fig, ax = plt.subplots()  
+            f, ax = plt.subplots()  
             ax.plot(year,profit) 
             ax.set_xlabel("year")
             ax.set_ylabel("profit")
