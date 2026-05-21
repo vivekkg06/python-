@@ -2,6 +2,7 @@ import pandas as pd
 import json
 import matplotlib.pyplot as plt
 
+
 with open("prdatastore.json", 'r') as f:
     data = json.load(f)
 
